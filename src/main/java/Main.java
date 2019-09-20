@@ -8,6 +8,7 @@ public class Main {
         Integer b=Integer.valueOf(100);
         System.out.println(a==b);
         System.out.println(a==b);
+        System.out.println(a==b);
 
     }
 
