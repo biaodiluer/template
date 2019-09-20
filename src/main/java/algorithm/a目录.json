@@ -1,0 +1,99 @@
+{
+  "二分搜索": {
+    "BinarySearch": "二分搜索的四个模板",
+    "MinimumSumOfMSubSequence": "在M个子序列中，求最大子序列和的最小值"
+  },
+  "动态规划": {
+    "BackPack": "01背包，完全背包",
+    "BurstBalloons": "打气球，连续三个数字相乘和最大",
+    "BuyAndSellStock": "买卖股票的各种问题",
+    "CoinChange": "给定不限个数的若干面值硬币，求能凑出某个面值的最少硬币数",
+    "DivideApple": "M个苹果和N个盘子有几种分法",
+    "EditDistance": "编辑距离",
+    "HouseRobber": "3到小偷偷东西的问题，含树状dp",
+    "LongestCommonSubSequence": "最长公共子序列",
+    "LongestIncreasingContinueSubSequence": "最长上升连续子序列",
+    "LongestIncreasingSubSequence": "最长递增子序列,及其个数",
+    "LongestPalindromeSubSequence": "最长回文子序列",
+    "MaxContinueSumProduct": "连续区间内最大和和乘积",
+    "NumberOfSum": "和为target的方案数",
+    "RegularExpressionMatching": "*.正则表达式的匹配"
+  },
+  "图论": {
+    "HasCircle": "判断有向图和无向图中是否存在环",
+    "MinimumSpanningTree": "从图中求最小生成树，使得权值最小",
+    "ShortestPath": "图中求最短路径"
+  },
+  "链表": {
+    "CycleList": "链表中存在环的一些操作",
+    "LastK": "求倒数第K个节点",
+    "ListReverse": "链表普通翻转",
+    "ListReverseKGroup": "链表K个为一组翻转",
+    "ListReverseSection": "链表指定区间翻转",
+    "MergeSortedList": "合并若干个有序的链表",
+    "SortList": "基于merge的链表排序"
+  },
+  "前缀和差分": {
+    "IncDecSequence": "差分，数组区间加减1，使所有数相等",
+    "MaxGridSum": "二维前缀和，求一个矩形中固定大小窗口的最大sum",
+    "SubarraySum": "数组中和为k的子数组的个数",
+    "TallestCow": "求所有牛的最高身高"
+  },
+  "队列": {
+    "FindMedian": "O1找中位数",
+    "MaximumSumCircleArray": "循环数组中的滑动窗口最大和",
+    "MaxInSlidingWindow": "滑动窗口中最大元素",
+    "MyStack": "两个队列实现一个栈"
+  },
+  "递归": {
+    "CombinationSum": "选出和为target的所有选法",
+    "FloodFill": "泛洪，求连通区域",
+    "Hanoi": "汉诺塔",
+    "MatchSticksToSquare": "火柴能否拼成正方形",
+    "NQueens": "皇后问题",
+    "Permutations": "排列组合相关",
+    "Sudoku": "数独填充"
+  },
+  "排序": {
+    "HeapSort": "堆排序",
+    "MergeSort": "归并排序",
+    "QuickSort": "快速排序"
+  },
+  "栈": {
+    "Calculator": "给定字符串计算表达式求结果",
+    "LargestRectangle": "直方图中最大的矩形",
+    "MyQueue": "两个栈实现一个队列",
+    "TrapWater": "直方图，能存多少水"
+  },
+  "树": {
+    "ConstructUsingTwoOrders": "根据前中序遍历和后中序遍历重建二叉树",
+    "InOrder": "中序遍历",
+    "LevelOrder": "层次遍历，递归和非递归",
+    "LowestCommonAncestor": "二叉树两个节点的最近公共祖先节点",
+    "PostOrder": "后序遍历",
+    "PreOrder": "前序遍历",
+    "SumInPath": "某一路径和最大的相关问题，从根到叶，从根到非叶，从非根到叶，从非根到非叶",
+    "Trie": "字典树",
+    "TwoSumInBST": "二叉查找树中会否存在两个数之和为target",
+    "VerifyPreorder": "验证一个前序遍历序列是否合法（含空叶节点）"
+  },
+  "双指针": {
+    "LongestSubstringWithoutRepeats": "不含重复元素的最长字串",
+    "LongestValidParentheses": "最长有效括号字串",
+    "MinimumWindowSubstring": "包含t中所有字符的最小字串",
+    "RemoveDuplicates": "递增数组去除多余数字",
+    "TwoSum": "递增数组求和为target的下标"
+  },
+  "并查集": {
+    "FriendCircle": "统计人脉圈个数",
+    "RedundantEdge": "找冗余的边"
+  },
+  "其他": {
+    "Josephus": "约瑟夫环",
+    "KMP": "寻找字串",
+    "LRUCache": "模拟LRU缓存，O1复杂度获取缓存",
+    "NumberTheory": "数论相关",
+    "QuickPower": "快速幂",
+    "TwoNum": "大数相加相乘"
+  }
+}
