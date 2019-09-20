@@ -8,8 +8,7 @@ public class Main {
         Integer b=Integer.valueOf(100);
         System.out.println(a==b);
         System.out.println(a==b);
-        System.out.println("3123213");
-
+        System.out.println("true");
     }
 
 }
