@@ -1,7 +1,8 @@
-package design.singleton;
+package designpattern.creative.singleton;
 
 public class LazySingelTon {
-    private LazySingelTon instance;
+    //一定要是volatile保证指令有序
+    private volatile LazySingelTon instance;
 
     private LazySingelTon() {
     }

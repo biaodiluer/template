@@ -1,4 +1,4 @@
-package design.singleton;
+package designpattern.creative.singleton;
 
 public class HungrySingleTon {
     private HungrySingleTon instance = new HungrySingleTon();

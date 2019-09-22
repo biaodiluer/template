@@ -32,15 +32,15 @@ public class MergeSortedList {
     合并K个list
      */
     static ListNode mergeKList(ListNode[] lists) {
-        return partion(lists, 0, lists.length - 1);
+        return partition(lists, 0, lists.length - 1);
     }
 
-    private static ListNode partion(ListNode[] lists, int left, int right) {
+    private static ListNode partition(ListNode[] lists, int left, int right) {
         if (left > right) return null;
         if (left == right) return lists[left];
         int mid = (left + right) >> 1;
-        ListNode l1 = partion(lists, left, mid);
-        ListNode l2 = partion(lists, mid + 1, right);
+        ListNode l1 = partition(lists, left, mid);
+        ListNode l2 = partition(lists, mid + 1, right);
         return mergeTwoList(l1, l2);
     }
 

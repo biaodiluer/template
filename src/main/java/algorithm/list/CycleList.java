@@ -36,7 +36,7 @@ public class CycleList {
         return null;
     }
 
-    //获得环的长度,从相遇点开始，一个走两步一个走两步，再次相遇时的次数就是环的长度
+    //获得环的长度,从相遇点开始，一个走一步一个走两步，再次相遇时的次数就是环的长度
     static int cycleLength(ListNode head) {
         ListNode meet = meetNode(head);
         if (meet == null) return 0;

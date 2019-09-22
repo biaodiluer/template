@@ -1,4 +1,4 @@
-package design.singleton;
+package designpattern.creative.singleton;
 
 /*
 类似于内部类的单例模式，内部的类或者枚举只是中间跳板，真正被用到的类是外面的类

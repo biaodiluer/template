@@ -8,9 +8,7 @@ import java.util.List;
 import java.util.Set;
 
 public class TwoSumInBST {
-    /*
-    方法2：一边遍历，一边找另一半是否在hash中，和BST无关，时间On空间On
-     */
+
     static Set<Integer> set = new HashSet();
 
     public static void main(String[] args) {
@@ -43,6 +41,9 @@ public class TwoSumInBST {
         inorder(root.right, list);
     }
 
+    /*
+    方法2：一边遍历，一边找另一半是否在hash中，和BST无关，时间On空间On
+     */
     static public boolean findTarget2(TreeNode root, int k) {
         if (root == null) return false;
         if (set.contains(k - root.val)) return true;

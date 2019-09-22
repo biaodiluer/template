@@ -15,8 +15,7 @@ public class ListReverse {
 
     //普通翻转递归
     static ListNode recursion(ListNode head) {
-        if (head == null) return null;
-        if (head.next == null) return head;
+        if (head == null || head.next==null) return head;
         ListNode newHead = recursion(head.next);
         head.next.next = head;
         head.next = null;
